@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Galáxia de Hoje</title>
+    <script src="planetas.js"></script>
+    <link rel="stylesheet" href="planetas.css">
+</head>
+
+<body>
+    <!--Cabeçalho */--> 
+    <header>
+        <h1>Galáxia de Hoje</h1>
+    </header>
+    <!--Corpo-->
+    <main class="container">
+        <section class="image-container">
+            <div class="card">
+                <div class="image-image">
+                <h3>Foto do dia</h3>
+                    <img id="img_plan" src="" alt="Aguardando a imagem ser carregada" />
+                    <br />
+                    <p>Esta imagem foi recebida por meio da API da NASA</p> 
+                <button class="btn" onclick="carregarImagens()">Ver Imagem</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer>
+        <p>
+            <span class="bold">Galáxia de Hoje</span>
+            &copy; 2022 
+        </p>
+    </footer>
+</body>
+</html>
